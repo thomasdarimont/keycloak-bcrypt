@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.github.leroyguillaume"
-version = "1.6.0"
+version = "1.7.0"
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ configurations {
 
 dependencies {
     val bcryptVersion = "0.10.2"
-    val jbossLoggingVersion = "3.4.1.Final"
+    val jbossLoggingVersion = "3.6.0.Final"
     val keycloakVersion = project.property("dependency.keycloak.version")
     val junitVersion = "5.8.2"
 
